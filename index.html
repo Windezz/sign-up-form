@@ -16,34 +16,45 @@
         <img id="bg-image" src="halie-west-25xggax4bSA-unsplash.jpg" alt="" srcset="">
     </div>
     <div class="content">
-        <p>This is not a real online service! You know you need somethign like this in your life to help you realize your deepest dreams.Sign up <i>now</i> to get started.</p>
-        <p>You <i>know</i> you want to</p>
+        <div class="welcome-msg">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.Sign up <i>now</i> to get started.</p>
+            <p><br>You <i>know</i> you want to</p>
+        </div>
 
         <div class="user-form">
+            <h1 id="form-label">Let's do this!</h1>
             <form action="#" method="post">
-                <label for="first-name">FIRST NAME</label>
-                <input type="text" name="first-name" id="first-name">
+
+                <div class="form-line1">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" name="first-name" id="first-name">
+                    
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email">
+
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                
+                <div class="form-line2">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="last-name" id="last-name">
+                    
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="tel" name="phone-number" id="phone-number" placeholder="0613-400-6799">
+
+                    <label for="con-password">CONFIRM PASSWORD</label>
+                    <input type="password" name="con-password" id="con-password">
+                </div>
     
-                <label for="last-name">LAST NAME</label>
-                <input type="text" name="last-name" id="last-name">
-    
-                <label for="email">EMAIL</label>
-                <input type="email" name="email" id="email">
-    
-                <label for="phone-number">PHONE NUMBER</label>
-                <input type="tel" name="phone-number" id="phone-number" placeholder="0613-400-6799">
-    
-                <label for="password">PASSWORD</label>
-                <input type="password" name="password" id="password">
-    
-                <label for="con-password">CONFIRM PASSWORD</label>
-                <input type="password" name="con-password" id="con-password">
             </form>
         </div>
-        <button>Create Account</button>
-        <p>
-            Already have an account? <a href="#">log in</a>
-        </p>
+
+        <div>
+            <button>Create Account</button>
+            <p> Already have an account? <a href="#">log in</a> </p>
+
+        </div>
     </div>
 </body>
 </html>
