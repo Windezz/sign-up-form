@@ -126,6 +126,14 @@ button {
     margin-bottom: 20px;
 }
 
+button:hover {
+    background-color: #538b22;
+}
+
+button:active {
+    background-color: #596D48;
+}
+
 .closing {
     padding: 1rem 2rem 10rem 2rem;
 
@@ -136,17 +144,21 @@ a {
     color: #596D48;
 }
 
+a:hover {
+    color: #538b22;
+}
+
 #password:invalid, #con-password:invalid {
     border: 2px solid red;
 }
 
 #copyright {
-    position: absolute;
+    position: relative;
     color: white;
     font-size: small;
     font-weight: lighter;
     top: 53rem;
-    margin-left: min(150px);
+    margin-left: 25%;
 }
 
 #password:invalid + span::before {
@@ -160,3 +172,4 @@ a {
 #password:valid + span::before {
     content: '';
 }
+
